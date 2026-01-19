@@ -59,4 +59,3 @@ python3 resize.py path/to/dir --output out_dir --upscale-suffix "-x2" --scale 2
 - Image IO uses PIL; images are converted to RGB before being passed to `super_image` helpers.
 - Call the `upscale()` function programmatically by loading a model with `load_model()` and then passing file paths.
 
-If you'd like, I can add a short snippet showing programmatic usage or add extra examples for specific models.
